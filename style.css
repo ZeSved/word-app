@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 body {
@@ -21,3 +22,10 @@ body {
   border-radius: 7px;
 }
 
+.word {
+  background-color: #272727;
+}
+
+.but {
+  background-color: #272727;
+}
