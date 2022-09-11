@@ -7,25 +7,26 @@
   color: white;
 }
 
+:root {
+  --background-color: #272727;
+}
+
 body {
-  background-color: #272727;
+  background-color: var(--background-color);
 }
 
 .in {
   width: 500px;
   height: 500px;
   color: #8a8a8a;
-  background-color: #272727;
+}
+
+.word,
+.but,
+.in {
+  background-color: var(--background-color);
   border-style: solid;
   border-color: black;
   border-width: 5px;
   border-radius: 7px;
-}
-
-.word {
-  background-color: #272727;
-}
-
-.but {
-  background-color: #272727;
 }
